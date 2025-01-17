@@ -1,24 +1,29 @@
 #script juntar bancos de dados E-SUS e SINAN
 
-setwd("F:/lucas.sanglard/OneDrive - Ministério da Saúde/Área de Trabalho/Unir_Bancos/")
+setwd("C:/Users/Sanglard/Desktop/Unir_Bancos")
 Sys.setlocale("LC_ALL","Portuguese_Brazil")
-library(foreign)
-library(rlist)
-library(plyr)
-library(data.table)
-library(dplyr)
-library(stringr)
-library(ggpubr)
-library(sf)
-library(reshape)
-library(purrr)
-library(openxlsx)
-library(writexl)
-library(dplyr)
-library (magrittr)
-library (abjutils)
-library(data.table)
-library(lubridate)
+##Apenas rodar as linhas abaixo
+
+pacotes <- c("stringr",
+             "tidyverse",
+             "tidyr",
+             "openxlsx",
+             "foreign",
+             "janitor",
+             "usethis",
+             "data.table",
+             "utils")
+
+if(sum(as.numeric(!pacotes %in% installed.packages())) != 0){
+  instalador <- pacotes[!pacotes %in% installed.packages()]
+  for(i in 1:length(instalador)) {
+    install.packages(instalador, dependencies = T)
+    break()}
+  sapply(pacotes, require, character = T) 
+} else {
+  sapply(pacotes, require, character = T) 
+}
+
 
 gc(T)
 rm(list=ls())
