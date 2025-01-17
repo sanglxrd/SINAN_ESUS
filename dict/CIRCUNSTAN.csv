@@ -1,0 +1,24 @@
+key;value
+99;Ignorado
+01;Uso Habitual
+02;Acidental
+03;Ambiental
+04;Uso terapêutico
+05;Prescrição médica inadequada
+06;Erro de administração
+07;Automedicação
+08;Abuso
+09;Ingestão de alimento/bebida
+10;Tentativa de suicídio
+11;Tentativa de aborto
+12;Violência/homicídio
+13;Outra
+1;Uso Habitual
+2;Acidental
+3;Ambiental
+4;Uso terapêutico
+5;Prescrição médica inadequada
+6;Erro de administração
+7;Automedicação
+8;Abuso
+9;Ingestão de alimento/bebida

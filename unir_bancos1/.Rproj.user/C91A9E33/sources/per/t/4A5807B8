@@ -1,0 +1,28 @@
+{
+    "id": "4A5807B8",
+    "path": null,
+    "project_path": null,
+    "type": "object_explorer",
+    "hash": "0",
+    "contents": "",
+    "dirty": false,
+    "created": 1726451828547.0,
+    "source_on_save": false,
+    "relative_order": 5,
+    "properties": {
+        "id": "a2ca1975479b477cbb07cd89de079fe5",
+        "name": "lista_dict",
+        "title": "lista_dict",
+        "language": "R",
+        "source_window_id": "",
+        "Source": "Source"
+    },
+    "folds": "",
+    "lastKnownWriteTime": 1726451634,
+    "encoding": "",
+    "collab_server": "",
+    "source_window": "",
+    "last_content_update": 1726451828547,
+    "read_only": false,
+    "read_only_alternatives": []
+}
